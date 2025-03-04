@@ -26,8 +26,8 @@ headers_login = {
 url_burn_coupon = "https://exonidentityservice.dsquares.com/api/couponz/BurnPreGeneratedCoupon"
 
 def generate_coupon():
-    random_number = ''.join([str(random.randint(0, 9)) for _ in range(11)])
-    return f"620{random_number}"
+    random_number = ''.join([str(random.randint(0, 9)) for _ in range(12)])
+    return f"62{random_number}"
 #620227
 while True:
     try:
